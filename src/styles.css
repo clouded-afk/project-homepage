@@ -25,9 +25,7 @@ footer {
 .contact-description,
 .contact-header,
 .contact-address,
-.phone-info,
-.email-info,
-.footer-social-links {
+.phone-info {
   padding: 3%;
   color: white;
   font-size: 18px;
@@ -51,9 +49,22 @@ footer {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg);
 }
 
+.email-info {
+  color: white;
+  font-size: 18px;
+  padding-left: 3%;
+}
+
 .email,
 .phone-num {
   padding-left: 10px;
+}
+
+.footer-social-links {
+  padding-top: 10%;
+  padding-left: 3%;
+  color: white;
+  font-size: 18px;
 }
 
 i {
