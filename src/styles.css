@@ -1,3 +1,7 @@
+:root {
+  --accent-color: #0ea5e9;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -6,15 +10,10 @@
 /* Footer Styling */
 
 footer {
-  border: 1px solid red;
   display: flex;
   padding: 5%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.contact-container {
-  border: 1px solid blue;
+  justify-content: space-around;
+  background-color: var(--accent-color);
 }
 
 .contact-description,
@@ -24,10 +23,13 @@ footer {
 .email-info,
 .footer-social-links {
   padding: 2%;
+  color: white;
 }
 
 .contact-header {
   font-family: "Playfair Display", sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
 }
 
 .email-info,
@@ -39,6 +41,7 @@ footer {
 .email-icon,
 .phone-icon {
   width: 5%;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg);
 }
 
 .email,
@@ -60,5 +63,5 @@ i {
 }
 
 .footer-image {
-  width: 50%;
+  width: 60%;
 }
