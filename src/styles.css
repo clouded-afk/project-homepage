@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Footer Styling */
+
+footer {
+  border: 1px solid red;
+  display: flex;
+  padding: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-container {
+  border: 1px solid blue;
+}
+
+.contact-description,
+.contact-header,
+.contact-address,
+.phone-info,
+.email-info,
+.footer-social-links {
+  padding: 2%;
+}
+
+.contact-header {
+  font-family: "Playfair Display", sans-serif;
+}
+
+.email-info,
+.phone-info {
+  display: flex;
+  align-items: center;
+}
+
+.email-icon,
+.phone-icon {
+  width: 5%;
+}
+
+.email,
+.phone-num {
+  padding-left: 10px;
+}
+
+i {
+  color: black;
+}
+
+.footer-link {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#footer-linkedin {
+  padding: 5%;
+}
+
+.footer-image {
+  width: 50%;
+}
