@@ -10,10 +10,16 @@
 /* Footer Styling */
 
 footer {
+  position: absolute;
   display: flex;
+  justify-content: space-between;
   padding: 5%;
-  justify-content: space-around;
+  bottom: 0;
   background-color: var(--accent-color);
+}
+
+.contact-container {
+  padding-right: 5%;
 }
 
 .contact-description,
@@ -22,8 +28,9 @@ footer {
 .phone-info,
 .email-info,
 .footer-social-links {
-  padding: 2%;
+  padding: 3%;
   color: white;
+  font-size: 18px;
 }
 
 .contact-header {
