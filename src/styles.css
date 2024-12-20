@@ -12,14 +12,16 @@
 .work-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   padding: 3%;
+  padding-top: 1%;
   gap: 5%;
-  border: 1px solid red;
+  margin-bottom: 10%;
 }
 
 .work-header {
   font-family: "Playfair Display", sans-serif;
+  padding-left: 3%;
 }
 
 .project {
