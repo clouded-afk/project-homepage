@@ -34,12 +34,15 @@
 
 .project-header {
   display: flex;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
 }
 
 .project-description {
   padding-bottom: 20%;
+  padding-left: 5%;
 }
 
 /* Footer Styling */
