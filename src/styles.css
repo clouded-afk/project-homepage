@@ -11,11 +11,15 @@
 
 .work-container {
   display: grid;
-  grid-template-columns: repeat(3, 30%);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   padding: 3%;
-  border: 1px solid red;
   gap: 5%;
+  border: 1px solid red;
+}
+
+.work-header {
+  font-family: "Playfair Display", sans-serif;
 }
 
 .project {
@@ -38,6 +42,22 @@
   align-items: center;
   width: 100%;
   padding: 5%;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 25%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.external-link {
+  width: 20px;
 }
 
 .project-description {
@@ -48,8 +68,6 @@
 /* Footer Styling */
 
 footer {
-  position: absolute;
-  bottom: 0;
   display: flex;
   justify-content: space-between;
   padding: 3%;
