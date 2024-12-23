@@ -8,6 +8,24 @@
   box-sizing: border-box;
 }
 
+/* Header Styling */
+
+header {
+  display: flex;
+  padding: 3%;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  margin: auto;
+}
+
+.header-image {
+  width: 30%;
+}
+
 /* Body Styling */
 
 .work-container {
