@@ -13,13 +13,38 @@
 header {
   display: flex;
   padding: 3%;
+  padding-bottom: 0;
 }
 
 .about-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
   margin: auto;
+  padding: 3%;
+  padding-bottom: 1%;
+  box-shadow: 1px 2px 6px 0 var(--shadow-color);
+}
+
+.about-header {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  padding-bottom: 3%;
+}
+
+.about-description {
+  line-height: 1.5;
+  padding-bottom: 5%;
+}
+
+.header-social-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-link {
+  font-size: 26px;
+  padding: 1.5%;
 }
 
 .header-image {
