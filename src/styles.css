@@ -16,6 +16,15 @@ header {
   padding-bottom: 0;
 }
 
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--accent-color);
+}
+
 .about-container {
   display: flex;
   flex-direction: column;
@@ -90,6 +99,7 @@ header {
   align-items: center;
   width: 100%;
   padding: 5%;
+  padding-bottom: 0;
   font-family: "Playfair Display", sans-serif;
 }
 
@@ -119,8 +129,8 @@ a {
 }
 
 .project-description {
+  padding: 5%;
   padding-bottom: 20%;
-  padding-left: 5%;
 }
 
 /* Footer Styling */
