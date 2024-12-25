@@ -65,6 +65,7 @@ header:before {
 
 .header-image {
   width: 30%;
+  box-shadow: 1px 1px 4px 0 #525252;
 }
 
 /* Body Styling */
