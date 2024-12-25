@@ -37,7 +37,6 @@ header:before {
   padding-bottom: 1%;
   box-shadow: 1px 2px 6px 0 var(--shadow-color);
   background-color: white;
-  z-index: 1;
 }
 
 .about-header {
