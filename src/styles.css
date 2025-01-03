@@ -337,6 +337,7 @@ i {
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: 1fr;
     margin: auto;
+    margin-bottom: 90%;
   }
 
   .work-header {
@@ -355,7 +356,6 @@ i {
   footer {
     display: inline-flex;
     flex-direction: column;
-    margin-top: 25%;
     padding: 0;
   }
 
