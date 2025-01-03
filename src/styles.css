@@ -17,7 +17,7 @@ header {
   position: relative;
 }
 
-header:before {
+.header-wrapper:before {
   content: "";
   position: absolute;
   top: 0;
@@ -25,7 +25,7 @@ header:before {
   width: 100%;
   height: 500px;
   background-color: var(--accent-color);
-  clip-path: polygon(0% 0%, 0% 87%, 200% 0%);
+  clip-path: polygon(0% 0%, 100% 0, 100% 60%, 0% 100%);
   z-index: -1;
 }
 
@@ -238,6 +238,44 @@ i {
 @media (min-width: 600px) and (max-width: 1200px) {
   /* Header */
 
+  .header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  header {
+    display: block;
+  }
+
+  .image-container {
+    float: left;
+    max-width: 30%;
+    margin: 0;
+    margin-right: 40px;
+    transform-origin: bottom right;
+  }
+
+  .header-image {
+    vertical-align: middle;
+  }
+
+  .header-image-text {
+    right: -250px;
+    top: -8px;
+    left: auto;
+    bottom: auto;
+    text-align: start;
+  }
+
+  .about-container {
+    box-shadow: 0px 5px 5px #00000050;
+    width: 80%;
+    padding: 40px 30px 30px 30px;
+    transform: translateY(-250px);
+  }
+
   /* Body */
 
   .work-container {
@@ -302,18 +340,6 @@ i {
     padding: 5%;
   }
 
-  header:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 500px;
-    background-color: var(--accent-color);
-    clip-path: polygon(0% 0%, 0% 100%, 125% 0%);
-    z-index: -1;
-  }
-
   .image-container {
     display: inline-flex;
     width: 100%;
@@ -337,7 +363,7 @@ i {
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: 1fr;
     margin: auto;
-    margin-bottom: 90%;
+    padding-bottom: 100%;
   }
 
   .work-header {
