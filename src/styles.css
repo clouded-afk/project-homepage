@@ -270,6 +270,25 @@ i {
     max-width: 300px;
     margin: auto;
   }
+
+  /* Footer */
+
+  footer {
+    padding: 0;
+    margin-top: 5%;
+  }
+
+  .footer-content-wrapper {
+    display: flex;
+    padding: 2%;
+    max-width: 65%;
+    margin: auto;
+    border: 1px solid red;
+  }
+
+  .footer-image {
+    max-width: 700px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
