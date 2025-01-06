@@ -248,6 +248,28 @@ i {
     height: 325px;
     margin-left: 0;
   }
+
+  /* Body */
+
+  .work-container {
+    max-width: 65%;
+    margin: auto;
+    padding: 0;
+    padding: 3%;
+    margin-bottom: 5%;
+  }
+
+  .work-header {
+    width: 65%;
+    margin: auto;
+    padding: 3%;
+    padding-bottom: 0;
+  }
+
+  .project {
+    max-width: 300px;
+    margin: auto;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
@@ -262,7 +284,6 @@ i {
   }
 
   .work-header {
-    width: 100%;
     width: 80%;
     margin: auto;
     padding-left: 5%;
